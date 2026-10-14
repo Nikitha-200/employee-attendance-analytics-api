@@ -1,0 +1,13 @@
+@"
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+.idea/
+.vscode/
+sample_data/
+PROBLEM_STATEMENT.docx
+~`$OBLEM_STATEMENT.docx
+"@ | Set-Content -Encoding utf8 .gitignore
